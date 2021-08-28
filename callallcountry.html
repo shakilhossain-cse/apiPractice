@@ -7,11 +7,18 @@
     <title>Call All country</title>
     <!-- link with bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssloader.css">
 </head>
 <body>
-    <div class="container">
-        
+    <div class="bg-success mb-4">
+        <h1 class="text-center p-5 text-uppercase  fw-bolder text-white bg-opacity-25" >All countrys</h1>
     </div>
-    <script src="./callallcountry.html"></script>
+    <div class="loader" id="loader">Loading...</div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="countryies">
+           
+          </div>
+    </div>
+    <script src="./js/callAllCountry.js"></script>
 </body>
 </html>
