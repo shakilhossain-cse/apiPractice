@@ -41,9 +41,10 @@ const displayCountry = (countrys) => {
   <div class="card bg-dark text-white">
   <img src="${country[0].flag}" class="card-img">
   <div class="card-img-overlay">
-    <h5 class="card-title fs-1 fw-bold">${country[0].name}</h5>
-    
-    <p class="card-text">${country[0].capital}</p>
+    <h5 class="card-title fs-1 fw-bold">Name: ${country[0].name}</h5>
+    <p class="card-text fs-3 fw-bold">Population: ${country[0].population}</p>
+    <p class="card-text fs-3 fw-bold">Capital: ${country[0].capital}</p>
+    <p class="card-text fs-3 fw-bold">Currency: ${country[0].currencies[0].name}</p>
   </div>   
 </div>
   `;
